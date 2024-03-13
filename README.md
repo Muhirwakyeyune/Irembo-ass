@@ -21,12 +21,7 @@ This application combines a Flask-based web service (`irembo_service.py`) with a
    The core Python script that defines the `RICAService` class. This class encapsulates the functionality for capturing applicant details, contact details, business details, and product details. The `RICAApp` class is also instantiated, which uses Tkinter for creating a graphical user interface.
 
    ```python
-   import tkinter as tk
-   from flask import Flask, render_template, request
-   import smtplib
-   from email.mime.text import MIMEText
 
-   # ... (Include the rest of the code from irembo_service.py)
 ## 2. index.html
 ## irembo_service.py
 pip install flask
